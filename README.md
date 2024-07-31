@@ -43,13 +43,13 @@ python fast_api.py
 
 2. Test API
 
-Test multiple requests sent to the server at the same time.
+- Test multiple requests sent to the server at the same time.
 
 ```shell
 python user_test.py
 ```
 
-Test with chat ui:
+- Test with chat ui:
 
 ```shell
 python web_app_streamlit.py
