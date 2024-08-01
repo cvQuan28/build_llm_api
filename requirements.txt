@@ -1,8 +1,9 @@
-fastapi==0.111.1
-Flask==3.0.3
-langchain==0.2.11
-pydantic==1.10.17
-Requests==2.32.3
-streamlit==1.37.0
-torch==2.0.0+cu117
-transformers==4.43.3
+fastapi
+Flask
+langchain
+pydantic
+Requests
+streamlit
+torch
+transformers
+langchain-community
