@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 - Use Flask to build the API endpoints:
 ```shell
-python flask_app.py
+python app.py
 ```
 - Alternatively, use FastAPI to build high-performance API endpoints:
 ```shell
