@@ -1,3 +1,10 @@
+'''
+Convert .ui to .py : pyuic6 View_Main.ui -o ViewMain.py
+Auto create file requirements.txt :
+    + pip3 freeze > requirements.txt
+    + pip install pipreqs -> pipreqs .
+'''
+
 from flask import Flask, request, jsonify
 import torch
 from queue import Queue
