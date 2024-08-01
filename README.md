@@ -29,6 +29,17 @@ cd build_llm_api
 ```shell
 pip install -r requirements.txt
 ```
+## Build with docker
+1. Build docker image
+```shell
+docker build -t flask-llm-api .
+```
+
+2. Run docker container
+```shell
+docker run -d -p 5000:5000 flask-llm-api
+```
+
 ## Quick start
 1. **Run server**
 
@@ -57,5 +68,3 @@ python web_app_streamlit.py
 
 ## Features
 - **Optimize serving and increase processing performance.**
-   
-- **Build docker** 
